@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title><center>Cadastro</center></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card id="card_cad">
+    
+    <div class="forms">
+      <form name="form_cad">
+
+        <div class="cad_field">
+          <ion-input type="text" placeholder="Produto"><ion-icon name="briefcase"></ion-icon></ion-input>
+        </div>
+
+        <div class="cad_field">
+          <ion-input type="email" placeholder="Valor"><ion-icon name="mail"></ion-icon></ion-input>
+        </div>
+
+        <div class="cad_field">
+          <ion-input type="email" placeholder="Imagem"><ion-icon name="card"></ion-icon></ion-input>
+        </div>
+
+
+      </form>
+
+      <center>
+       <ion-button size="small" class="submit-button" (click)="cadastrar()" color="success">Cadastrar</ion-button>
+      </center>
+
+    </div>
+
+
+  </ion-card>
+
+</ion-content>
